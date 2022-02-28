@@ -1,0 +1,73 @@
+Project: 
+  Name: Ultimate EX
+  Authors:
+    - iTNTPiston
+    - MrPancakeTurtle
+  Version: "0.0.1"
+  Description: Combined power ultimate route for BOTW 100% Extended
+  Url: ""
+
+Route:
+  - Plateau 1: __use__ Plateau 1
+  - Rupee Printing:
+    - WB to coliseum
+    - _Chest::Special<Phantom Helm>:
+        coord: [-1200.47, 152.65, 1229.24]
+    - BLSS to garrison ruins
+    - _Chest::Special<Phantom Greaves>:
+        coord: [-507.27, 130.00, 609.95]
+    - BLSS to sacred ground
+    - _Chest::Special<Phantom Armor>:
+        coord: [-245.80, 124.56, -86.58]
+    - 2 WB to 3AA
+    - _Chest<3 AA>:
+        coord: [-254.00, 209.67, -742.37]
+    - WB to flagpole
+    - _Korok::C29
+    - Start rupey dupey
+    - _Korok::C28
+    - _Korok::C32
+    - _Korok::C30
+  - Rito 1:
+    - _Warp::Shrine::KehNamut:
+        line-color: "red"
+    - WB to durians:
+        coord: [-2186.5,438.1234039104693]
+    - WB to carrots
+    - _Shrine::MoggLatan
+    - BLSS to rito
+    - talk to chief and wife
+    - WB to sha warvo
+    - _Shrine::ShaWarvo
+    - WB to flight range:
+        coord: [-3800.75,-2313.9918787153624]
+    - arrow (no bow)
+    - cook durians and cold
+    - enter medoh
+    - done with medoh
+    - get darners
+    - _Chest<Great Eagle Bow>:
+        movements:
+          - to: [-3630.37, 323.57, -1828.17]
+            warp: Yes
+    - _Shrine::AkhVaquot
+    - WB to bird:
+        coord: [-3979.5,-1738.8823404128107]
+    - WB to shock arrow:
+        coord: [-3557.68, 254.12, -1503.59]
+    - WB to stable:
+        coord: [-3267.5,-1758.0005942403395]
+    - dupe core
+    - do beedle
+    - wood
+    - octoroks
+    - WB to T19
+    - _Korok::T19
+  - Kakariko 1:
+    - _Warp::Tower::GreatPlateau:
+        line-color: "orange"
+    - BLSS to impa:
+        coord: [1775.5,985.3638731677893]
+    - dupe beetle
+    - buy shop
+    - _Shrine::TalohNaeg
