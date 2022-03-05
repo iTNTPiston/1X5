@@ -1,31 +1,38 @@
-Plateau 1:
-  - Clip out of SOR, NO TOD
-  - _Equipment<Pot Lid>:
+Plateau1:
+  - Clip out of SOR, NO TOD:
+      notes: Activating TOD after plat so TOD works nicely with darners in Rito
+  - _Equipment::Shield<Pot Lid>:
+      line-color: red
       coord: [-952.34, 238.33, 1959.44]
-  - Food around camp
-  - Surf to ToT
+  - _Equipment::Weapon<Boko Spear>
+  - _Material<Peppers + Shroom>:
+      comment: Get steak too
+      notes: Get 6 peppers and all shrooms
+  - Surf to ToT, Clip:
+      notes: same as any%
   - _Chest<Traveler Bow>:
       coord: [-832.43, 222.00, 1963.11]
   - BLSS to bombs
   - _Shrine::JaBaij
-  - BLSS to tower
+  - BLSS to tower:
+      notes: Can also do Mag first, then tower. Both have pros and cons so do whichever you prefer
   - _Tower::GreatPlateau
   - WB to mag
-  - _Shrine::OmanAu
+  - _Shrine::OmanAu:
+      notes: Don't get ragdoll inside shrine if you already did tower. If you did mag first, bomb your self in the end
   - BLSS to old man hut
   - _Korok::P18
-  - _Equipment<Axe>:
+  - _Equipment::Weapon<Axe + Torch>:
+      notes: Also grab food inside
       coord: [-778.00, 194.95, 2254.00]
-  - _Equipment<Torch>:
-      coord: [-798.90, 193.32, 2262.30]
-  - _Equipment<Pot Lid>:
+  - _Equipment::Shield<Pot Lid>:
       coord: [-803.47, 193.57, 2265.43]
   - WB to stasis
   - _Shrine::OwaDaim:
       comment: No hammer
   - Boulder + BLSS to cryo
   - _Shrine::KehNamut
-  - BLSS to tot
+  - BLSS to ToT
   - Plateau:
       icon: king
-      coord: [-811,1969.1380618388403]
+      coord: [-811, 1969.1380618388403]

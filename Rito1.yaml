@@ -1,0 +1,42 @@
+Rito1:
+  - _Warp::Shrine::KehNamut:
+      line-color: "yellow"
+  - +BLSS + .dir(W) to durians:
+      coord: [-2060,475.077053164001]
+  - _Material<Durians + Wood>:
+      coord: [-2186.5,438.1234039104693]
+  - WB to carrots
+  - _Material<4 Endura Carrots>:
+      coord: [-2307.73, 416.78, 532.73]
+  - _Equipment::Bow<Forest Dweller Bow>:
+      hide-icon-on-map: True
+      comment: Inside shrine
+  - _Shrine::MoggLatan
+  - BLSS to rito
+  - talk to chief and wife
+  - WB to sha warvo
+  - _Shrine::ShaWarvo
+  - WB to flight range:
+      coord: [-3800.75,-2313.9918787153624]
+  - arrow (no bow)
+  - cook durians and cold
+  - enter medoh
+  - done with medoh
+  - get darners
+  - _Chest<Great Eagle Bow>:
+      movements:
+        - to: [-3630.37, 323.57, -1828.17]
+          warp: Yes
+  - _Shrine::AkhVaquot
+  - WB to bird:
+      coord: [-3979.5,-1738.8823404128107]
+  - WB to shock arrow:
+      coord: [-3557.68, 254.12, -1503.59]
+  - WB to stable:
+      coord: [-3267.5,-1758.0005942403395]
+  - dupe core
+  - do beedle
+  - wood
+  - octoroks
+  - WB to T19
+  - _Korok::T19
