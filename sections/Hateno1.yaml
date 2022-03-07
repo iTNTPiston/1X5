@@ -1,0 +1,80 @@
+Hateno1:
+  - +.dir(N) up hill
+  - _Material<Silent Princess, 1>:
+      notes: Grab 3 but 2 for stealth potion
+  - _Material<9+ Night Shades>:
+      comment: 3 for stealth
+  - BLSS to farmer
+  - _Npc<Farmer>:
+      coord: [3381,2098.340697794555]
+  - _Material<3+ Frogs>
+  - 2 Hearts at statue:
+      coord: [3436,2103.3426785956863]
+  - +.dir(N.)
+  - _Korok::N42
+  - Smuggle Blue Flame:
+      notes: with boko spear
+      movements:
+        - to: [3458,1987.296724009444]
+        - to: [3782.75,2113.29516226579]
+      var-change:
+        Weapons: -1
+  - _Npc::SheikaFemale<Purah>:
+      notes: Keep talking until all upgraded
+  - Upgrades:
+      split-type: UserDefined
+      icon: camera-plus
+  - +.dir(<E) SQ
+  - _Korok::N48:
+      movements: 
+        - to: [3901.08, 235.80, 2096.73]
+          away: True
+  - +.dir(<N) Turn
+  - _Korok::N43
+  - +.dir(<S)
+  - _Npc<Sheep Lady>:
+      coord: [3625,2104.597851575878]
+  - +.dir(<W Turn)
+  - _Npc<Bolson>:
+      coord: [3305,2301.1648141027354]
+  - _Equipment::Weapon<Hammer>:
+      var-change:
+        Weapons: 1
+  - _Cook<Potions>:
+      comment: Stealth, Chill, Speed
+      notes: 2 princess + 3 night shade for stealth, darner + useless guardian part for chill, 3 frogs + carrot/frog + core for speed
+      coord: [3331.375,2284.283128898918]
+  - +SQ to shrine
+  - _Shrine::MyahmAgana:
+      comment: Equip .rune(CAMERA)
+      notes: Save inside shrine so the autosave stays inside
+  - SQ to statue:
+      notes: Sell = 11, Buy = 122+221+ then 112+21+
+  - Essense Duped:
+      coord: [3285.60, 217.60, 2197.58]
+      split-type: UserDefined
+      icon: link
+  - +.dir(<<S)
+  - _Npc<Bolson>
+  - _Npc<Hudson>
+  - House Upgrades:
+      coord: [3331.375,2284.283128898918]
+      split-type: UserDefined
+      icon: house-plus
+  - _Korok::N59
+  - +.dir(W) Turn
+  - _Korok::N58
+  - +.dir(SW)
+  - _Material<Hearty Bass, 5>:
+      notes: 2 shock arrows
+      coord: [3014.75,2538.341612052315]
+  - +.dir(W>) Turn
+  - _Korok::N50:
+      notes: grab until 6 apples
+  - _Korok::N49:
+      movements:
+        - to: [2714.13, 225.53, 2345.55]
+          away: True
+  - +.dir(N) + .dir(N)
+  - _Tower::Hateno
+

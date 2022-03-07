@@ -1,0 +1,25 @@
+Faron1:
+  - +.dir(SW) Super + .dir(W)
+  - _Korok::F06
+  - +.dir(SW) SQ DEFUSE
+  - _Korok::F09
+  - +.dir(W)
+  - _Korok::F08
+  - +.dir(E)
+  - _Korok::F12
+  - +.dir(W)
+  - _Korok::F11
+  - +.dir(SW)
+  - Farosh Farming:
+      coord: [1735.5,2992.154106328002]
+      notes: 1 Scale, 1 Horn, 1 Claw. Leave torch there
+      var-change:
+        Weapons: -1
+  - _Snap::Elite<Farosh>
+  - +.dir(SW)
+  - _Material<Beetle, 5>:
+      movements:
+        - to: [1554,3335.134991597086]
+        - to: [1529.09, 177.64, 3322.31]
+        - to: [1499.92, 184.05, 3344.98]
+        - to: [1484.92, 177.54, 3329.52]

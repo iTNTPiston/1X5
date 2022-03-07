@@ -3,6 +3,9 @@ Plateau1:
       notes: Activating TOD after plat so TOD works nicely with darners in Rito
   - _Equipment::Shield<Pot Lid>:
       line-color: red
+      notes: Also get the boko spear
+      var-change:
+        Weapons: 1
       coord: [-952.34, 238.33, 1959.44]
   - _Equipment::Weapon<Boko Spear>
   - _Material<Peppers + Shroom>:
@@ -25,6 +28,8 @@ Plateau1:
   - _Equipment::Weapon<Axe + Torch>:
       notes: Also grab food inside
       coord: [-778.00, 194.95, 2254.00]
+      var-change:
+        Weapons: 2
   - _Equipment::Shield<Pot Lid>:
       coord: [-803.47, 193.57, 2265.43]
   - WB to stasis
@@ -32,7 +37,12 @@ Plateau1:
       comment: No hammer
   - Boulder + BLSS to cryo
   - _Shrine::KehNamut
-  - BLSS to ToT
+  - +BLSS to activate TOD:
+      notes: "Activating TOD now for TOD routing in Rito 1"
+      coord: [-1026,1799.9940575966066]
+  - +BLSS to ToT:
+      notes: Use tree for better initial angle, or use the stone
   - Plateau:
       icon: king
+      split-type: UserDefined
       coord: [-811, 1969.1380618388403]

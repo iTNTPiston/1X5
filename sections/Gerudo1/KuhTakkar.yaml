@@ -1,0 +1,57 @@
+KuhTakkar:
+  - _Warp::Shrine::KehNamut:
+      line-color: "#00ff00"
+  - BLSS to Gerudo Town:
+      coord: [-2361,2054.9532530933056]
+  - _Npc<Spy Guy>:
+      coord: [-3806,2830.070912680495]
+  - _Shrine::DaqoChisay
+  - +.dir(<E) TS
+  - _Npc::Gerudo<Vivian>:
+      coord: [-3260.25,2608.8178424387415]
+  - +Super to Gerudo Town
+  - _Shop<All Arrows>:
+      coord: [-3857.25,2913.0499161885045]
+  - _Npc::Gerudo<Riju>:
+      coord: [-3892.04, 157.48, 2968.14]
+  - _Warp::Shrine::MoggLatan:
+      line-color: "red"
+  - BLSS + .dir(S)
+  - _Korok::G19
+  - +.dir(NW) + .dir(<W):
+      coord: [-2806,1073.9786073477844]
+  - _Korok::G13
+  - +.dir(N) + .dir(W>) Turn:
+      coord: [-2884,987.944537568329]
+  - _Korok::G10
+  - +.dir(W) + .dir(N):
+      coord: [-3198,909.9136370706829]
+  - _Korok::G12
+  - +.dir(.S) Turn
+  - Start melting ice
+  - _Material<Tail, 4>:
+      notes: Equip phantom 3 and 1 ice arrow headshot each with GEB. Keep melting shrine at mean time. Also kill the archer
+      coord: [-3104,1324.0039616022623]
+  - _Equipment::Weapon<Dragonbone Club>:
+      comment: For Kohga
+      hide-icon-on-map: true
+  - _Equipment::Shield<Knights Shield>:
+      hide-icon-on-map: true
+  - _Material<Woods>:
+      coord: [-3106,1341.5108944062213]
+  - _Tod::Morning<For Gerudo Quests>
+  - Activate Kuh Takkar:
+      coord: [-3087.5,1221.9635532591874]
+      notes: Doing the shrine later in case of SCW failure
+  - +.dir(<E) Turn
+  - Clip in
+  - _Equipment::Bow<Duplex Bow>:
+      coord: [-3510.46, 442.51, 1297.31]
+  - _Snap::Elite<Kohga>:
+      coord: [-3433,1335.614886465606]
+      notes: Use dragonbone club to fight kohga
+  - Thunderhelm:
+      split-type: UserDefined
+      icon: chest
+      hide-icon-on-map: true
+

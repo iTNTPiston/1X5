@@ -1,0 +1,95 @@
+Kakariko2:
+  - _Warp::Shrine::TalohNaeg:
+      line-color: red
+  - +SQ to pumpkin man
+  - _Npc::SheikaMale<Pumpkin Man>:
+      coord: [1878.75,972.7523769613572]
+  - +SQ to Impa
+  - _Npc::SheikaFemale<Impa>:
+      coord: [1776,982.7563385636195]
+  - Run to shops
+  - _Shop<Arrows + Carrots>:
+      movements:
+        - to: [1831.25,1041.779712016967]
+        - to: [1789,1029.7179110216757]
+  - +.dir(E.) + .dir(SE) Super:
+      movements:
+        - to: [1930.5,1054.0972573355384]
+        - to: [2169,1367.2212554863472]
+  - .enemy(Kill 3 Bokos):
+      notes: 2 Bomb arrows with falcon bow shoot in middle
+  - _Chest<Maracas>
+  - Glide off
+  - _Korok::D21
+  - +.dir(<W)
+  - .npc(Hestu):
+      comment: 2 Bows
+      icon: "hestu"
+      coord: [2069.45, 188.17, 1422.25]
+  - +.dir(<W) Turn
+  - _Korok::D20
+  - +.dir(NW)
+  - _Korok::D19
+  - +.dir(NW)
+  - _Korok::D18
+# Lotus Farming
+  - _Warp::Shrine::TalohNaeg:
+      line-color: "#00ff00"
+  - +.dir(E>) Turn
+  - Shock fish
+  - _Korok::Z60
+  - _Material<Hyrule Bass, 4>:
+      coord: [1618.5,810.0016836809618]
+      notes: OK if grab less than 4
+  - +.dir(N>)
+  - _Korok::Z50
+  - +.dir(<N) Turn
+  - _Shrine::DakaTuss
+  - +.dir(N) Turn
+  - _Discover<Goponga Village Ruins>:
+      notes: Need a low wb to discover this while flying
+      coord: [1612,259.4750419057482]
+  - _Korok::Z39
+  - Start farming lotus:
+      coord: [1677.88, 115.88, 129.79]
+  - _Korok::Z40:
+      movements:
+        - to: [1736.36, 129.04, 85.68]
+          away: true
+  - Grab lotus:
+      movements:
+        - to: [1698.95, 115.86, 136.74]
+        - to: [1725.55, 115.87, 167.83]
+        - to: [1753.38, 115.88, 163.34]
+        - to: [1770.63, 115.88, 156.84]
+        - to: [1782.28, 115.71, 153.09]
+        - to: [1788.25, 115.88, 165.05]
+        - to: [1793.93, 115.86, 182.45]
+        - to: [1792.09, 115.88, 147.62]
+        - to: [1805.70, 115.88, 132.13]
+        - to: [1806.95, 115.88, 125.13]
+  - +.dir(<E) Turn
+  - _Boss::Hinox::Red:
+      comment: 4 Bomb Arrows
+      coord: [1969.04, 115.44, 97.40]
+  - +.dir(SE) midair
+  - _Korok::Z41
+  - _Equipment::Bow<Forest Dweller Bow>:
+      coord: [2066.25,156.5733886819089]
+      notes: Inside cave
+  - +.dir(<W) Turn
+  - Get lotus:
+      movements:
+        - to: [1906.96, 115.88, 238.54]
+        - to: [1902.20, 115.88, 245.89]
+        - to: [1922.01, 115.88, 260.23]
+        - to: [1918.99, 115.88, 273.71]
+        - to: [1922.88, 115.88, 287.70]
+        - to: [1930.67, 115.88, 285.01]
+        - to: [1944.88, 115.88, 273.44]
+        - to: [1952.72, 115.88, 281.17]
+        - to: [1957.32, 115.88, 277.31]
+  - +.dir(S)
+  - _Korok::N01
+  - Drop down get more lotus:
+      coord: [1960.75,396.29407282516786]

@@ -1,0 +1,29 @@
+Kakariko1:
+  - _Warp::Tower::GreatPlateau:
+      line-color: "yellow"
+  - BLSS to Kak:
+      notes: Want to go to the side and curve in. Should have plenty of time to get paya skip
+  - _Npc::SheikaFemale<Impa>:
+      comment: Twice, 122
+      coord: [1775.5,985.3638731677893]
+  - _Material<4 Apples>:
+      notes: Need 6 at gerudo
+  - _Equipment::Shield<Pot Lid>:
+      coord: [1796.75,1017.2674310499542]
+  - _Tod::Morning<For beetle>
+  - Dupe:
+      notes: Royal -> GEB. Hold smuggle 5 peppers. Inside shop is more consistent
+  - _Shop<Carrots>:
+      comment: Buy then sell pepper
+      coord: [1788.25,1029.2721849726686]
+  - _Material<Beetle,6>:
+      coord: [1811.23, 221.34, 1050.06]
+      notes: Unhold after getting beetle. Remember to dupe bow
+  - _Shop<All Arrows>:
+      coord: [1829.5,1040.5266417752136]
+  - _Npc::SheikaFemale<Fire Arrow Lady>:
+      comment: Twice
+  - .dir(N.) to shrine
+  - _Shrine::TalohNaeg:
+      notes: Equip 2 phantom pieces so you can blow yourself up in the end.
+  - "" # Empty line to let the notes fit

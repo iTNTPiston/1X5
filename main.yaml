@@ -10,11 +10,8 @@ Route:
   - Plateau 1:   __use__ Plateau1
   - Rupey Dupey: __use__ Castle1
   - Rito 1:      __use__ Rito1
-  - Kakariko 1:
-    - _Warp::Tower::GreatPlateau:
-        line-color: "orange"
-    - BLSS to impa:
-        coord: [1775.5,985.3638731677893]
-    - dupe beetle
-    - .item(buy shop)
-    - _Shrine::TalohNaeg
+  - Kakariko 1:  __use__ Kakariko1
+  - Hateno 1:    __use__ Hateno1
+  - Faron 1:     __use__ Faron1
+  - Kakariko 2:  __use__ Kakariko2
+  - Gerudo 1:    __use__ Gerudo1

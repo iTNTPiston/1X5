@@ -1,10 +1,6 @@
 Castle1:
-  - Climb to top
-  - _Korok::P11
-  - +.dir(E>>) Turn
-  - Activate TOD:
-      coord: [-1026,1799.9940575966066]
-  - +.dir(<N) TS
+  - +.dir(<<N) TS:
+      notes: For food in this section, eat peppers until 2 (need 2 for cold potion)
   - _Chest::Special<Phantom Helm>:
       coord: [-1200.47, 152.65, 1229.24]
   - BLSS to garrison ruins
