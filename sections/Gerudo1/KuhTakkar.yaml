@@ -1,8 +1,9 @@
 KuhTakkar:
   - _Warp::Shrine::KehNamut:
       line-color: "#00ff00"
-  - BLSS to Gerudo Town:
-      coord: [-2361,2054.9532530933056]
+  - BLSS to Ice house race
+  - _Korok::W29
+  - +.dir(S.) Turn
   - _Npc<Spy Guy>:
       coord: [-3806,2830.070912680495]
   - _Shrine::DaqoChisay
@@ -39,7 +40,8 @@ KuhTakkar:
       hide-icon-on-map: true
   - _Material<Woods>:
       coord: [-3106,1341.5108944062213]
-  - _Tod::Morning<For Gerudo Quests>
+  - _Tod::Morning:
+      comment: For Gerudo Quests
   - Activate Kuh Takkar:
       coord: [-3087.5,1221.9635532591874]
       notes: Doing the shrine later in case of SCW failure
@@ -49,7 +51,7 @@ KuhTakkar:
       coord: [-3510.46, 442.51, 1297.31]
   - _Snap::Elite<Kohga>:
       coord: [-3433,1335.614886465606]
-      notes: Use dragonbone club to fight kohga
+      notes: Use dragonbone club to fight kohga. Break it/throw away in the end
   - Thunderhelm:
       split-type: UserDefined
       icon: chest

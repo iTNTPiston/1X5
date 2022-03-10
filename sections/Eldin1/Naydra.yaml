@@ -1,0 +1,55 @@
+Naydra:
+  - _Warp::TechLab::Hateno:
+      line-color: red
+  - +.gale() to top:
+      gale: 1
+  - _Korok::N47
+  - +.dir(N) midairs to naydra:
+      coord: [3937,1341.8179643760486]
+  - Shoot Eye
+  - +.dir(W)
+  - _Korok::N24
+  - +.dir(.S)
+  - Shoot Eye
+  - _Korok::N31
+  - +.dir(SW)
+  - Shoot Eye:
+      notes: Activate race first, so you can midair away after shooting eye
+  - _Korok::N39
+  - +.dir(W>) midairs FAR
+  - _Korok::N21
+  - +.dir(E>) Turn
+  - _Korok::N29
+  - +.dir(E):
+      coord: [3234,1479.9175986729451]
+  - _Korok::N30:
+      notes: Stasis + Bomb Arrow
+      movements:
+        - to: [3229.03, 302.83, 1545.25]
+          away: true
+  - _Korok::N22
+  - _Snap::Quest<Red Lynel>:
+      notes: Walk down one level and zoom
+      movements:
+        - to: [3261.15, 263.12, 1211.79]
+          away: true
+  - Shoot last eye:
+      movements:
+        - to: [3494,1400.0425872243195]
+          away: true
+  - Shoot Naydra:
+      movements:
+        - to: [3937,1341.8179643760486]
+          warp: true
+  - _Snap::Elite<Naydra>:
+      notes: Snap while waiting for scale to fall
+  - _Shrine::JitanSami
+  
+  - +.dir(W) to peak:
+      coord: [3850,1311.0621971555174]
+  - Naydra Farming:
+      notes: Get a horn and a claw. WB to N18 after first shot, then make morning there. Ideally parts should fall to the spring
+      time-override: 240 # for freeing naydra and farming naydra
+  - _Korok::N18
+  - Collect parts:
+      coord: [3850,1311.0621971555174]

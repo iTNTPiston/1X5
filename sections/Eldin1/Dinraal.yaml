@@ -1,0 +1,67 @@
+Dinraal:
+  - +BLSS to Goron City
+  - _Shop<2 Flamebreaker>:
+      coord: [1647.25,-2413.2005790117782]
+  - _Npc::Goron<Shrine Quest Brother>:
+      coord: [1646.5,-2466.2215755037682]
+  - _Shop<All Goron Spice>:
+      coord: [1681,-2459.4689014222413]
+  - _Npc::Goron<Bludo>:
+      coord: [1713.95, 498.05, -2446.92]
+  - .item(Lizard under rock)
+  - .dir(N>)
+  - Activate Shae Mosah:
+      notes: Doing this later for heart refill
+      coord: [1757.25,-2562.185006825648]
+  - +.dir(<N) Turn to cave
+  - _Npc::Goron<Yunobo>:
+      coord: [1630.68, 560.52, -2941.37]
+      notes: Either get unloaded rock or clip in
+  - _Chest<10 Ice Arrows>:
+      hide-icon-on-map: true
+  - .gale() to top of mine: 
+      gale: 1
+  - _Korok::E08
+  - +.dir(<N Turn)
+  - _Korok::E07
+  - Run inside:
+      coord: [1572.5,-3092.960185897264]
+  - _Shrine::ShoraHah
+
+  - +Ride minecart out:
+      coord: [1616.5,-3089.458799336472]
+  - +.dir(<W) Turn
+  - _Tod::Morning:
+      coord: [1286,-3041.3995733826514]
+      notes: Set campfire near luminous ores. This makes dinraal spawn low. Farm luminous ores as talus dies and pick up his parts
+  - _Boss::Talus::Igneo:
+      coord: [1336.10, 507.31, -3043.21]
+      comment: .fury() break luminous ores
+      fury: 3
+  - +.dir(W>>) ordinal DT
+  - _Korok::K04
+  - +.dir(W>) Turn
+  - _Korok::K01
+  - +SQ to lynel
+  - .!!(EQUIP ATK 3)
+  - .enemy(Lynel):
+      coord: [248,-3665.043973785111]
+      comment: Need a hoof
+      notes: Let first GEB break here or before rudania. If no hoof, kill the next lynel too. Grab horns for duping.
+  - _Equipment::Weapon<Lynel Crusher>:
+      var-change:
+        Weapons: 1
+      comment: .v(Weapons)/8 weapons
+  - Shoot Dinraal:
+      notes: Should be passing soon after lynel dies. Make morning after part drops. Shoot dinraal twice more for horn and claw
+      time-override: 240 # Lynel + Dinraal Farming
+  - _Snap::Elite<Dinraal>
+  - +.dir(N>)
+  - _Material<Dinraal Scale>:
+      coord: [285,-3783.090720691806]
+  - +.dir(E>)
+  - _Korok::K02
+  - +.dir(<E) Turn
+  - _Korok::K03
+  - +.dir(E>) Turn
+  - _Korok::E01

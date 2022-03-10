@@ -1,24 +1,26 @@
 Rito1:
   - _Warp::Shrine::KehNamut:
       line-color: "yellow"
-  - +BLSS + .dir(W) to durians:
-      coord: [-2060,475.077053164001]
-  - _Material<Durians + Wood>:
-      coord: [-2186.5,438.1234039104693]
-  - +WB to carrots
+  - +BLSS to FDB
+  - _Material<Rushroom, 1>:
+      comment: Also grab acorn
+  - _Chest<Forest Dweller Bow>:
+      coord: [-2342.64, 348.37, 680.81]
+  - +.dir(N.)
   - _Material<4 Endura Carrots>:
       coord: [-2307.73, 416.78, 532.73]
-  - _Equipment::Bow<Forest Dweller Bow>:
-      hide-icon-on-map: True
-      comment: Inside shrine
   - _Shrine::MoggLatan
   - +_Korok::R60
+  - +.dir(.E) SQ
+  - _Material<Durians + Wood>:
+      coord: [-2186.5,438.1234039104693]
+      comment: Use bombs
   - +BLSS to rito
-  - _Npc::Rito<Chief + Wife>
+  - _Npc::Rito<Chief + Wife>:
+      coord: [-3630.37, 323.57, -1828.17]
   - Revali Memory:
       split-type: UserDefined
       icon: "medoh-memory"
-      coord: [-3630.37, 323.57, -1828.17]
   - Drop down to shop
   - _Shop<Buy Everything>:
       notes: "Gear + Shaft: Sell all gears. Shaft: Sell 30+ shafts. Core: Sell 15+ cores."
@@ -26,6 +28,7 @@ Rito1:
   - _Shrine::ShaWarvo
   - +.dir(N>) to flight range:
       coord: [-3800.75,-2313.9918787153624]
+  - _Korok::T02
   - _Material<10 Arrows>
   - _Cook<Cooking>:
       comment: All Durians, Endura, Cold Prot
@@ -45,19 +48,20 @@ Rito1:
       icon: "medoh-done"
       coord: [-3934,-2236.6092944279367]
       notes: "Equip ATK 3, FDB shoot 3 times each phase. Might want to glide closer if he is far to hit all headshots"
-  - _Material<2 Darners>
+  - _Material<2 Darners>:
+      hide-icon-on-map: true
   - _Chest<Great Eagle Bow>:
       movements:
         - to: [-3630.37, 323.57, -1828.17]
           warp: Yes
   - _Shrine::AkhVaquot
-  - .dir(W Turn)
+  - .dir(W) Turn
   - _Npc::Rito<Little Bird>:
       coord: [-3979.5,-1738.8823404128107]
   - .dir(E>>) Turn
   - _Material<5 Shock Arrow>:
       coord: [-3557.68, 254.12, -1503.59]
-  - dir(NE) to stable:
+  - .dir(NE) to stable:
       coord: [-3267.5,-1758.0005942403395]
   - _Material<10 Berries>
   - _Material<6 Pepper>
@@ -67,10 +71,11 @@ Rito1:
       comment: Arrows, 1 Darner
   - _Material<Ancient Arrow>
   - _Material<Farm Wood>
-  - _Equipment::Weapon<Axe>
+  - _Equipment::Weapon<2 Axe>:
+      var-change:
+        Weapons: 1 # Will eventually break first axe
+      comment: .v(Weapons)/8 weapons
   - .!!(SAVE)
   - _Material<Octoballoon + Voltfin>:
       notes: Kill octoroks, if not dropped, reload. SAVE + reload after got both
   - _Material<Farm Wood>
-  - .dir(.S)
-  - _Korok::T19

@@ -3,11 +3,13 @@ Plateau1:
       notes: Activating TOD after plat so TOD works nicely with darners in Rito
   - _Equipment::Shield<Pot Lid>:
       line-color: red
-      notes: Also get the boko spear
+      coord: [-952.34, 238.33, 1959.44]
+  - _Equipment::Weapon<Boko Spear>:
       var-change:
         Weapons: 1
-      coord: [-952.34, 238.33, 1959.44]
-  - _Equipment::Weapon<Boko Spear>
+      comment: .v(Weapons)/8 weapons.
+      notes: "Keep for blue flame"
+      hide-icon-on-map: true
   - _Material<Peppers + Shroom>:
       comment: Get steak too
       notes: Get 6 peppers and all shrooms
@@ -25,16 +27,15 @@ Plateau1:
       notes: Don't get ragdoll inside shrine if you already did tower. If you did mag first, bomb your self in the end
   - BLSS to old man hut
   - _Korok::P18
-  - _Equipment::Weapon<Axe + Torch>:
-      notes: Also grab food inside
-      coord: [-778.00, 194.95, 2254.00]
-      var-change:
-        Weapons: 2
   - _Equipment::Shield<Pot Lid>:
       coord: [-803.47, 193.57, 2265.43]
-  - WB to stasis
-  - _Shrine::OwaDaim:
-      comment: No hammer
+  - Tree WB to stasis
+  - _Equipment::Weapon<Hammer>:
+      var-change:
+        Weapons: 1
+      comment: .v(Weapons)/8 Inside shrine
+      hide-icon-on-map: true
+  - _Shrine::OwaDaim
   - Boulder + BLSS to cryo
   - _Shrine::KehNamut
   - +BLSS to activate TOD:

@@ -1,0 +1,32 @@
+Ruta:
+  - +.dir(S>) DT or super
+  - _Korok::Z04
+  - +.dir(<S) DT or super
+  - _Korok::Z17
+  - Drop down
+  - _Korok::Z16
+  - _Npc::ZoraMale<Fish Drama>
+  - _Shop<All Arrows>:
+      comment: Rock Salt, Violets
+      coord: [3319.125,-483.08918557092966]
+      notes: Rock salt for duping
+      var-change:
+        Lotus: 4
+  - _Shrine::NeezYohma
+  - Mipha Memory:
+      split-type: UserDefined
+      icon: ruta-memory
+      coord: [3301.625,-470.08918557092966]
+  - +2WB to Sidon:
+      coord: [3598.55, 316.00, -330.31]
+  - Enter Ruta:
+      coord: [3662.40, 315.66, -175.42]
+      split-type: UserDefined
+      icon: ruta-enter
+      hide-icon-on-map: true
+  - .enemy(Waterblight 1):
+      comment: Equip .rune(CRYONIS)
+      notes: ATK 3, STASIS 9-10 shots. No snap (we snap during refight)
+      split-type: UserDefined
+      icon: ruta-done
+      time-override: 300 # Inside ruta

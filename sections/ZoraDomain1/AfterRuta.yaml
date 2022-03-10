@@ -1,0 +1,88 @@
+AfterRuta:
+  - WB to king:
+      movements:
+        - to: [3285,-430]
+          warp: true
+  - _Chest<LightScale Trident>:
+      var-change:
+        Weapons: 1
+      comment: .v(Weapons)/8 Weapons
+      coord: [3328.99, 269.46, -547.36]
+      notes: "Need 4 weapons here since we need to pick up 4 weapons on plat 2: OHO, blizzard rod, boko spear for blue flame, and electrict rod. Will dupe 4 crushers (3 + 1 backup)"
+  - _Npc::ZoraFemale<Shrine Girl>:
+      coord: [3314.5,-533.5]
+  - _Npc::ZoraMale<Fronk>:
+      coord: [3327.60, 268.46, -533.16]
+  - +.dir(W) to shrine
+  - _Material<Lotus, 1>:
+      coord: [3115.3612402513463,-434.5]
+  - _Shrine::DagahKeek:
+      notes: Don't use trident afterwards. Needed for duping
+
+  - +.dir(<<W)
+  - _Boss::Hinox::Blue:
+      coord: [2930.51, 312.54, -298.40]
+      comment: 5 Crusher Spin SLAM
+  - _Material<Lotus, 6>:
+      movements:
+        - to: [2923.78, 310.31, -274.12]
+        - to: [2913.84, 310.31, -241.41]
+        - to: [2933.12, 310.31, -244.33]
+        - to: [2930.44, 310.31, -227.43]
+        - to: [2936.68, 310.31, -225.20]
+        - to: [2954.88, 310.31, -235.87]
+  - _Korok::Z24
+  - +.dir(SE)
+  - _Korok::Z34
+  - +.dir(E>) SQ
+  - _Npc<Monument>:
+      coord: [3393.74, 314.18, 49.77]
+  - +.dir(W.)
+  - _Npc<Monument>:
+      coord: [3265.50, 341.84, 38.70]
+  - Run
+  - _Korok::Z33
+  - _Material<Lotus, 4>
+  - +.dir(N>) Turn
+  - _Korok::Z25
+  - +.dir(<S)
+  - _Npc<Monument>:
+      coord: [3260.31, 241.83, -145.22]
+  - +.dir(W>) Turn:
+      notes: wb from monument
+  - _Npc<Monument>:
+      coord: [3062.39, 184.92, -216.65]
+  - +.dir(<S) Turn
+  - _Korok::Z32
+  - +.dir(S) HIGH DEFUSE
+  - _Discover<Luto's Crossing>:
+      coord: [3125.5,27.5]
+  - _Npc<Monument>:
+      coord: [3099.83, 236.67, 70.72]
+  - +.dir(W>) TS to letter girl
+  - Start letter quest:
+      coord: [2755.80, 189.68, -82.51]
+  - +.dir(N)
+  - _Korok::Z23
+  - +.dir(SE)
+  - _Npc<Monument>:
+      coord: [2868.11, 249.51, -68.34]
+  - Run to other side of mountain
+  - _Npc<Monument>:
+      coord: [2877.09, 229.49, -32.75]
+  - Drop down
+  - _Discover<Oren Bridge>:
+      coord: [2867,8]
+  - +.dir(S)
+  - _Npc<Monument>:
+      coord: [2838.09, 228.01, 188.33]
+  - +.dir(NW)
+  - _Korok::Z31
+  - +.dir(NE)
+  - BLSS with letter to end:
+      movements:
+        - to: [2744.5,-85]
+        - to: [2604,-160]
+        - to: [1766.18, 115.07, -55.54]
+  - +.dir(<N) Turn
+  - _Korok::Z12

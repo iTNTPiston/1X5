@@ -93,3 +93,5 @@ Kakariko2:
   - _Korok::N01
   - Drop down get more lotus:
       coord: [1960.75,396.29407282516786]
+      var-change:
+        Lotus: 27

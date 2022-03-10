@@ -37,9 +37,6 @@ Hateno1:
   - +.dir(<W Turn)
   - _Npc<Bolson>:
       coord: [3305,2301.1648141027354]
-  - _Equipment::Weapon<Hammer>:
-      var-change:
-        Weapons: 1
   - _Cook<Potions>:
       comment: Stealth, Chill, Speed
       notes: 2 princess + 3 night shade for stealth, darner + useless guardian part for chill, 3 frogs + carrot/frog + core for speed

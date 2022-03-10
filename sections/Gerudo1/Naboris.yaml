@@ -1,2 +1,38 @@
 Naboris:
-  - TODO
+  - _Warp::Shrine::DaqoChisay:
+      line-color: red
+  - Dupe:
+      notes: Apple/night shade/lizal horn/talon for 5 Farosh Horn, 5 Tail, 4 Farosh Claw (use lizal horn), then 5 more Farosh Horn. Also dupe 6 GEBs + 1 duplex. Can keep the one that you have been using
+  - _Shop<3 Durians>:
+      coord: [-3824,2877.5996342968956]
+  - _Cook<9 Speed Food>:
+      coord: [-3833,2946.0605134745565]
+  - _Shop<Shock + Ice Arrow>:
+      coord: [-3857.25,2913.0499161885045]
+  - Run up to Riju
+  - Urbosa Memory:
+      split-type: UserDefined
+      icon: "naboris-memory"
+      coord: [-3869.5,2945.8104144344998]
+  - WB to riju: 
+      coord: [-3422.56, 189.82, 3120.87]
+  - Ride sand seal to misae suma
+  - _Npc::Gerudo<Shrine Lady>:
+      coord: [-2970.30, 137.67, 3781.50]
+  - Backflip WB to naboris:
+      coord: [-2498,3754.3898216626076]
+      notes: Aim left of quest dot, east
+  - Enter Naboris:
+      split-type: UserDefined
+      icon: naboris-enter
+      hide-icon-on-map: true
+  - .gale() inside naboris:
+      gale: 2
+  - _Snap::Quest<Small Guardian:
+      hide-icon-on-map: true
+  - _Snap::Elite<Thunderblight>:
+      hide-icon-on-map: true
+  - .enemy(Thunderblight 1):
+      notes: Break shield, run a bit away, statis+ 8 headshots
+      icon: naboris-done
+      split-type: UserDefined

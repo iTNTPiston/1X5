@@ -1,0 +1,170 @@
+NaborisDLC:
+  - _Warp::Shrine::KuhTakkar:
+      line-color: yellow
+  - +.gale() SCW:
+      gale: 1
+      notes: If SCW fail, do shrine first
+  - _Tod::Noon:
+      comment: Activate cutscene
+      notes: Need 12-12:30 here. If pass 12 you can do the ball BLSS in the end. If you make 12 here, don't do the ball BLSS since you will end up a bit early for sasa kai.
+  - _Shrine::KihiroMoh
+
+  - +SQ enter hideout:
+      notes: stasis guy on left and run to orb. Grab all bananas. Whistle to distract and carry the orb out quickly
+  - _Discover<Kihiro Moh Shrine>:
+      hide-icon-on-map: true
+  - +.gale() + .dir(W) + .dir(S):
+      gale: 1
+      coord: [-3534,1340]
+  - _Boss::Talus::Frost: 
+      comment: .fury() + 2BA
+      fury: 2
+      notes: Get parts
+      coord: [-3558.72, 558.36, 1560.07]
+      time-override: 20
+  - +.dir(W)
+  - _Korok::G26
+  - +.dir(S) Turn
+  - _Tower::Gerudo
+  - _Npc<Kass>:
+      comment: "12"
+  - +SQ to pedestal
+  - _Shrine::SasaKai:
+      notes: 14:55 to 15:50
+
+  - +.dir(S>>) Ordinal DT
+  - _Npc::Gerudo<Ice House Quest>:
+      coord: [-3747.5,2286.98157854948]
+  - BLSS ice to end:
+      coord: [-3765,2693.642617681442]
+      time-override: 20
+  - +.dir(S>>) Ordinal Turn
+  - _Npc::Gerudo<Guard>:
+      coord: [-3916.544565998976,2878]
+  - _Npc::Gerudo<Sand Seal Lady>:
+      coord: [-3903.74, 148.98, 2882.96]
+  - Ride to before ring:
+      coord: [-4172.985738880328,2737.5]
+  - _Korok::W36:
+      movements:
+        - to: [-4224.87, 154.65, 2738.07]
+          away: True
+      notes: Shoot from far
+  - Do DLC ring chase:
+      time-override: 90
+      movements:
+        - to: [-4200.2207502482615,2716]
+        - to: [-4288.194604862196,2680]
+        - to: [-4403.160437596313,2623]
+        - to: [-4496.132806676948,2592]
+        - to: [-4560.113791850719,2511]
+        - to: [-4586.106067077563,2423]
+        - to: [-4597.102798904305,2337]
+        - to: [-4682.077544838218,2297]
+        - to: [-4756.055558945391,2251]
+        - to: [-4852.027036706046,2169]
+  - _Shrine::TakamaShiri
+
+  - +Ordinal-ish Oridinal Turn
+  - _Shrine::KemaZoos
+
+  - .gale() up:
+      gale: 1
+  - _Korok::W09
+  - +.dir(S.)
+  - _Korok::W13
+  - +.dir(<<S) Turn
+  - _Korok::W18
+  - +.dir(<W) Turn
+  - _Korok::W25:
+      notes: Shoot from statue for easy wb after
+  - +.dir(S) Turn
+  - _Boss::Molduga:
+      time-override: 15
+      coord: [-4804.0337216058915,2777.5]
+      comment: Crusher Spin to death
+  - .item(MOLDUGA GUT)
+  - Shoot torches
+  - _Shrine::ThoKayu
+
+  - +.dir(<S) Turn
+  - _Boss::Molduga:
+      time-override: 15
+      coord: [-4555.62, 137.14, 3256.35]
+      comment: Crusher Spin
+  - +.dir(W)
+  - _Korok::W51
+  - +.dir(S) midairs
+  - _Korok::W65
+  - _Snap::Quest<Gerudo Skeleton>:
+      movements:
+        - to: [-4836.025848279406,3747]
+          away: True
+  - _Material<Silent Princess, 2>:
+      coord: [-4869.6293451849,3834.5]
+  - Activate Fountain:
+      coord: [-4870.94, 122.72, 3825.82]
+  - _Shrine::HawaKoth:
+      time-override: 20
+  
+  - _Npc::Gerudo<Durian Lady>:
+      coord: [-4818.86, 130.23, 3713.28]
+  - +.dir(<E) Turn
+  - _Korok::W55
+  - +.dir(S.)
+  - _Korok::W61
+  - +.dir(SE)
+  - Alert molduga
+  - _Korok::W66
+  - _Boss::Molduga:
+      coord: [-4122.737388221212,3831.5]
+      comment: Crusher Spins
+      time-override: 15
+  - +.dir(<E) Turn
+  - _Boss::Molduga:
+      time-override: 15
+      coord: [-3785.559154733819,3678]
+      comment: Crusher Spins
+      notes: If you are too slow, fury might be back. Save furies for molduking and thunderblight, don't use here.
+  - +.dir(N):
+      coord: [-3772.5630171203966,3557]
+  - _Korok::W57:
+      movements:
+        - to: [-3728.54, 166.49, 3610.08]
+          away: True
+  - +.dir(N)
+  - _Korok::W56
+  - +.dir(E>) Turn + .dir(E):
+      coord: [-3298.3095851395533,3656]
+  - _Korok::W61:
+      movements:
+        - to: [-3286.43, 169.88, 3787.15]
+          away: true
+  - +.dir(E) midair
+  - _Korok::W62
+  - _Shrine::MisaeSuma
+
+  - +.dir(<<E) Turn start race:
+      coord: [-2591.20, 129.93, 3543.36]
+  - .boss(Molduking):
+      split-type: Molduga
+      comment: .fury() + 4 GEB shock
+      notes: Snap after first fury. Best to save one fury for thunderblight phase 2. Run to finish race as it dies.
+      fury: 2
+      icon: boss-dlc
+      coord: [-2391.18, 119.09, 3733.19]
+  - _Snap::Elite<Molduking>:
+      hide-icon-on-map: True
+  - _Korok::W63:
+      movements:
+        - to: [-2448.41, 134.74, 3751.94]
+  - +WB to shrine
+  - _Equipment::Shield<Radiant Shield>:
+      comment: Inside shrine
+      hide-icon-on-map: True
+      notes: Use lightning rod to open the gate
+  - _Shrine::KeiveTala
+  - +.dir(<W)
+  - _Korok::W68
+  
+

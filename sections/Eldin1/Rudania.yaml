@@ -1,0 +1,70 @@
+Rudania:
+  - _Warp::Shrine::ShaeMosah:
+      line-color: yellow
+  - _Shrine::ShaeMosah
+  - SQ to bludo:
+      coord: [1713.95, 498.05, -2446.92]
+  - Daruk Memory:
+      split-type: UserDefined
+      icon: rudania-memory
+
+  - +.dir(E)
+  - _Korok::E16
+  - +.dir(E) + .dir(SE):
+      coord: [1988,-2461.905713866158]
+  - _Npc::Goron<Rescue Yunobo>:
+      coord: [2163.75,-2283.6675986729447]
+  - Do Escort:
+      notes: Farm Amber/flint on the way. Use metal box to kill drones
+  - Enter Rudania:
+      split-type: UserDefined
+      icon: rudania-enter
+      movements:
+        - to: [2281,-2388.7615115438116]
+        - to: [2492,-2269.7143684768907]
+        - to: [2695.70, 726.70, -2371.72]
+        - to: [2783.17, 774.42, -2654.44]
+        - to: [2552,-2603.7801310744444]
+      hide-icon-on-map: true
+      time-override: 300 # Escort
+  - .gale() inside rudania:
+      gale: 1
+      notes: Break GEB and pick up Knight's Bow for trick shot
+  - _Snap::Elite<Fireblight>:
+      hide-icon-on-map: true
+  - .enemy(Fireblight 1):
+      split-type: UserDefined
+      icon: rudania-done
+      notes: Stasis+ 8 headshots, ATK 2. Stasis, bullet time, change armor
+
+  - SQ to bludo:
+      movements:
+        - to: [1587.5,-2427.8664940037615]
+          warp: true
+  - _Npc::Goron<Bludo>:
+      coord: [1713.95, 498.05, -2446.92]
+  - +.dir(E>)
+  - _Korok::E17
+  - +.dir(S) + .dir(E):
+      coord: [1888,-2301.3680786446666]
+  - _Shrine::DaqaKoh
+  
+  - +.dir(S>)
+  - Do Shrine Quest:
+      movements: 
+        - to: [1990,-2025.758936502341]
+        - to: [1836,-1895.4604297718793]
+      time-override: 60 # Quest
+  - _Shrine::KayraMah
+  - +Run out + .gale() .dir(NE):
+      coord: [1976,-2020.5099498001573]
+      gale: 1
+  - _Boss::Talus::Igneo:
+      coord: [2141.56, 559.13, -2178.47]
+      comment: .fury()
+      notes: Farm luminous stone. Get parts
+      fury: 3
+  - +.dir(E) to some ores:
+      coord: [2187,-2188.9821727898197]
+  - BLSS to Akkala Tower from ores
+  - _Tower::Akkala

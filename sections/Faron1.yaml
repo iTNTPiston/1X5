@@ -12,9 +12,7 @@ Faron1:
   - +.dir(SW)
   - Farosh Farming:
       coord: [1735.5,2992.154106328002]
-      notes: 1 Scale, 1 Horn, 1 Claw. Leave torch there
-      var-change:
-        Weapons: -1
+      notes: 1 Scale, 1 Horn, 1 Claw. Don't use torch, just shoot fire arrow
   - _Snap::Elite<Farosh>
   - +.dir(SW)
   - _Material<Beetle, 5>:

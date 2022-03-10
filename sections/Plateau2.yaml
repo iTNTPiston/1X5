@@ -1,0 +1,79 @@
+Plateau2:
+  - _Warp::SOR:
+      line-color: cyan
+      notes: "OHO Overloading: Unequip armor and shield. Equip Trident. Drop the 5 GEBs with shock arrow out and hold duplex in the end. put duplex away and open menu to see that link only has weapon visible. Now adjust overload so his weapon is also missing. Try switching weapon then unpause and pause, or unequip weapon and equip lynel crusher. Can also try to hold out duplex bow. When weapon is missing, confirm cannot switch weapon, unequip weapon, and pick up OHO. If OHO is invisible during cutscene then it's successful. If not, there is still a chance it might work. For duping, try to switch to trident. If cannot switch, try to unequip bow. If still cannot switch, pick up a bow."
+  - _Korok::P09
+  - OHO Overloading
+  - Dupe 4 Crushers
+  - .!!(HEAL+ARMOR)
+  - _Warp::Shrine::KehNamut
+  - +.dir(SE) + midair
+  - _Snap::Elite<Silver Moblin>:
+      coord: [-1240.30, 363.06, 2191.00]
+  - .enemy(Kill Camp)
+  - _Chest<10 Ice Arrows>:
+      coord: [-1234.30, 365.40, 2191.50]
+  - _Equipment::Weapon<Blizzard Rod>:
+      var-change:
+        Weapons: 1
+      comment: .v(Weapons)/8 weapons
+  - _Shrine::EtsuKorima:
+      notes: Snap backup small guardian here
+
+  - +.dir(E) Turn
+  - _Snap::Quest<Stalhorse>:
+      coord: [-754.00, 190.00, 2097.00]
+  - .enemy(Kill Camp)
+  - _Equipment::Weapon<Boko Spear>:
+      coord: [ -816.50, 190.06, 2139.20]
+      var-change:
+        Weapons: 1
+      comment: .v(Weapons)/8. Get from stalhorse boko
+  - _Shrine::RuvoKorbah
+  
+  - +.dir(NE)
+  - .enemy(Kill Camp)
+  - _Snap::Elite<Silver Lizalfos>:
+      coord: [-540.30, 184.13, 1881.60]
+  - _Material<Honey, 2>:
+      hide-icon-on-map: True
+  - _Shrine::RohtaChigah
+
+  - +.dir(W>) Super
+  - _Snap::Elite<Silver Bokoblin>:
+      coord: [-963.00, 206.40, 1611.70]
+  - _Equipment::Weapon<Lightning Rod>:
+      coord: [-956.30, 186.88, 1598.50]
+      var-change:
+        Weapons: 1
+      comment: .v(Weapons)/8 weapons
+  - _Material<Honey, 1>:
+      hide-icon-on-map: True
+      notes: Knock down with blizzard rod
+  - _Shrine::YowakaIta
+  
+  - +.dir(W)
+  - _Boss::Talus::Stone:
+      comment: .fury()
+      fury: 1
+      coord: [-1087.75, 179.14, 1663.18]
+      notes: Pick up parts until 10 amber
+  - +.dir(E) SQ
+  - _Korok::P04
+  - +.dir(<<E)
+  - _Korok::P01
+  - _Korok::P02
+  - +.dir(SW)
+  - _Korok::P05
+  - Run through camp
+  - _Material<10 Arrows>:
+      coord: [-901,1670.5]
+  - _Material<Acorn, 3>:
+      coord: [-930.78, 184.82, 1702.72]
+  - _Korok::P06
+  - .dir(<S) + .dir (<S)
+  - _Korok::P11
+  - SQ to pond
+  - _Korok::P10
+
+

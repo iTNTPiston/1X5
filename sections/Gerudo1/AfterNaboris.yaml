@@ -1,2 +1,18 @@
 AfterNaboris:
-  - TODO
+  - _Npc<Boots Guy>:
+      movements:
+        - to: [-3767.5,2871.174112419427]
+          warp: true
+  - _Npc::Gerudo<Riju>:
+      coord: [-3892.04, 157.48, 2968.14]
+  - .npc(Examine Thunderhelm)
+  - _Npc::Gerudo<Captain>:
+      coord: [-3910.5,2928.696891632435]
+  - _Npc::Gerudo<Historian>:
+      coord: [-3882.5,2881.6782721018017]
+      comment: "112"
+  - _Npc::Gerudo<Bar Lady>:
+      coord: [-3853.5,2872.6747066597663]
+  - _Npc::Gerudo<Trash Girl>:
+      coord: [-3834.5,2853.1669815353544]
+      
