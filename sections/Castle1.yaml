@@ -1,17 +1,18 @@
 Castle1:
   - +.dir(<<N) TS:
       notes: For food in this section, eat peppers until 2 (need 2 for cold potion)
-  - _Chest::Special<Phantom Helm>:
+  - _Chest::Special<EX Phantom Helm>:
       coord: [-1200.47, 152.65, 1229.24]
   - BLSS to garrison ruins
-  - _Chest::Special<Phantom Greaves>:
+  - _Chest::Special<EX Phantom Greaves>:
       coord: [-507.27, 130.00, 609.95]
   - BLSS to sacred ground
-  - _Chest::Special<Phantom Armor>:
+  - _Chest::Special<EX Phantom Armor>:
       coord: [-245.80, 124.56, -86.58]
   - +.dir(N) + .dir(N) to 3AA
   - _Chest<3 AA>:
       coord: [-254.00, 209.67, -742.37]
+  - _Equipment::Bow<Royal Bow>
   - WB to flagpole:
       notes: Find a visual cue to aim at since the map is dungeon mode when inside castle
   - _Korok::C29

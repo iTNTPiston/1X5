@@ -1,8 +1,25 @@
 Naboris:
   - _Warp::Shrine::DaqoChisay:
       line-color: red
-  - Dupe:
-      notes: Apple/night shade/lizal horn/talon for 5 Farosh Horn, 5 Tail, 4 Farosh Claw (use lizal horn), then 5 more Farosh Horn. Also dupe 6 GEBs + 1 duplex. Can keep the one that you have been using
+  - .npc(Transmutate)
+  - Drop 4/5 Tail:
+      notes: Smuggle 5 Apples
+      var-change:
+        Tail: 5
+  - Drop FHorn:
+      notes: Smuggle 5 night shades
+  - Drop FClaw:
+      notes: Smuggle 4 Lizal Horn
+  - Drop Rushroom:
+      notes: Smuggle 5 Eggs
+      var-change:
+        Rushroom: 5
+  - .npc(Transmutate)
+  - Drop 6 FHorn:
+      notes: Smuggle 5 Lizal Talon
+  - .npc(Transmutate Springs)
+  - Drop All Springs:
+      notes: Smuggle boko guts and goat button
   - _Shop<3 Durians>:
       coord: [-3824,2877.5996342968956]
   - _Cook<9 Speed Food>:
@@ -28,7 +45,7 @@ Naboris:
       hide-icon-on-map: true
   - .gale() inside naboris:
       gale: 2
-  - _Snap::Quest<Small Guardian:
+  - _Snap::Quest<Small Guardian>:
       hide-icon-on-map: true
   - _Snap::Elite<Thunderblight>:
       hide-icon-on-map: true

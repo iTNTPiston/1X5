@@ -1,0 +1,128 @@
+Akkala1:
+  - +.dir(.N) Turn
+  - _Korok::E02
+  - _Snap::Quest<Eldin Skeleton>:
+      movements:
+        - to: [1588.9620774357882,-3644]
+          away: True
+  - +.dir(NE)
+  - _Korok::E03
+  - +.dir(E) + .dir(E>)
+  - _Korok::E04
+  - +.dir(E>>)
+  - _Korok::E05
+  - Do Shrine Quest:
+      notes: .gale()
+      gale: 1
+  - _Tod::Night:
+      comment: For Kilton and BM
+  - _Shrine::GoraeTorr
+
+  - +.dir(<E) Turn
+  - _Boss::Hinox::Black:
+      coord: [2917.42, 343.68, -3561.40]
+      comment: Crusher Spin
+      notes: Fury might be back if you are slow. In this case you could also use 3 furies
+  - +.dir(<<E) Turn
+  - _Korok::A01
+  - +.dir(<<S) Turn
+  - _Npc<Kilton>:
+      coord: [3249.4831584547683,-3446]
+  - _Snap::Quest<Kilton>
+  - +.dir(S>)
+  - _Korok::A05:
+      comment: .gale()
+      gale: 1
+  - +.dir(<E) + .dir(E):
+      coord: [3496.16, 255.93, -3374.30]
+  - _Boss::Hinox::Black:
+      comment: Shoot from above
+      movements:
+        - to: [3489.38, 179.10, -3335.79]
+          away: True
+  - _Korok::A06
+  - +.dir(W>)
+  - _Shrine::ZunaKai:
+      comment: Skip BM
+
+  - +.!!(LOOK SKY EAST):
+      notes: Watch chest land during wb or chest might despawn
+  - +.dir(N) to camp:
+      coord: [3377.9569950302757,-3655]
+  - _Korok::A02
+  - +.dir(E)
+  - _Korok::A03
+  - +.dir(E>) Turn
+  - _Chest::Special<Xenoblade>:
+      coord: [3636.00, 302.00, -3520.00]
+  - +.dir(E>>)
+  - _Korok::A04:
+      notes: .!!(Pick up the razorshroom)
+  - +.dir(SE):
+      coord: [3967.8350172979663,-3220]
+  - _Korok::A07
+  - +.dir(SE)
+  - _Korok::A13
+  - +.dir(E):
+      coord: [4144.907832530796,-3171.5]
+  - Smuggle Flame:
+      notes: with boko spear
+  - +.dir(E)
+  - _Korok::A14:
+      notes: land and climb down to get it to not lose smuggle
+  - Run
+  - _Korok::A15:
+      notes: Throw spear before lifting rock.
+  - Activate Lab
+  - _Npc::SheikaMale<Robbie>:
+      coord: [4514.28, 352.96, -3158.73]
+  - _Npc::SheikaFemale<Jerrin>
+  - Buy ancient short sword
+  - .gale():
+      gale: 1
+  - _Korok::A16
+  - +.dir(N>) TS
+  - _Shrine::TuKaloh
+
+  - _Chest::Special<EX Travel Medallion>:
+      coord: [4655.00, 155.50, -3560.02]
+
+  - _Warp::Tower::Akkala:
+      line-color: red
+  - Drop down
+  - _Korok::A42
+  - _Korok::A43
+  - +.dir(SW)
+  - _Korok::A46
+  - +.dir(W>) Turn
+  - _Discover<Akkala Bridge Ruins>:
+      coord: [3131.0522901336426,-1396]
+  - +.dir(S>)
+  - _Korok::A45
+  - +SQ toward bridge
+  - _Korok::A50
+  - +.dir(E.) Turn
+  - _Boss::Hinox::Blue:
+      comment: .fury()
+      fury: 3
+      coord: [3288.75, 323.08, -1256.24]
+  - +.dir(SE) + .dir(SE)
+  - _Korok::A52
+  - Run
+  - _Discover<Bridge>:
+      coord: [3690.821529375644,-995]
+  - +.dir(N>)
+  - _Korok::A51
+  - +.dir(E>)
+  - _Discover<Bridge>:
+      coord: [3850.790253034025,-1079]
+  - +.dir(N)
+  - _Korok::A47
+  - _Shrine::DahHesho
+  - +.dir(N.) Turn
+  - _Npc<Hudson>:
+      coord: [3986.9354436761296,-1594.5]
+      comment: Twice, 10 wood
+  - Place Travel Medallion
+  - +.dir(E)
+  - _Korok::A38

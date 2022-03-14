@@ -19,3 +19,9 @@ Route:
   - Zora Domain 1: __use__ ZoraDomain1
   - Plateau 2:     __use__ Plateau2
   - Gerudo 2:      __use__ Gerudo2
+  - Eldin 2:       __use__ Eldin2
+  - Akkala 1:      __use__ Akkala1
+  - Woodland:      __use__ Woodland
+  - Castle:        __use__ Castle2
+  - Tabantha:      __use__ Tabantha
+  - Eldin3:        __use__ Eldin3

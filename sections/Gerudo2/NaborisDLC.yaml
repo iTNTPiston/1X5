@@ -27,7 +27,7 @@ NaborisDLC:
   - +.dir(S) Turn
   - _Tower::Gerudo
   - _Npc<Kass>:
-      comment: "12"
+      comment: "21"
   - +SQ to pedestal
   - _Shrine::SasaKai:
       notes: 14:55 to 15:50
@@ -84,6 +84,8 @@ NaborisDLC:
       coord: [-4804.0337216058915,2777.5]
       comment: Crusher Spin to death
   - .item(MOLDUGA GUT)
+  - .item(3+ Fins):
+      comment: For duping
   - Shoot torches
   - _Shrine::ThoKayu
 
@@ -148,9 +150,9 @@ NaborisDLC:
       coord: [-2591.20, 129.93, 3543.36]
   - .boss(Molduking):
       split-type: Molduga
-      comment: .fury() + 4 GEB shock
-      notes: Snap after first fury. Best to save one fury for thunderblight phase 2. Run to finish race as it dies.
-      fury: 2
+      comment: .fury() + 1 GEB shock
+      notes: Snap after first fury. Run to finish race as it dies.
+      fury: 3
       icon: boss-dlc
       coord: [-2391.18, 119.09, 3733.19]
   - _Snap::Elite<Molduking>:
@@ -164,6 +166,10 @@ NaborisDLC:
       hide-icon-on-map: True
       notes: Use lightning rod to open the gate
   - _Shrine::KeiveTala
+  - .!!(Drop Electric Rod):
+      var-change:
+        Weapons: -1
+      notes: If you don't drop it here, you will be very sad when trying to pick up the drillshaft
   - +.dir(<W)
   - _Korok::W68
   

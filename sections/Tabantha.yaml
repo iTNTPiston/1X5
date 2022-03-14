@@ -1,0 +1,303 @@
+Tabantha:
+  - +.dir(S>>>) ordinal Turn
+  - _Korok::C43
+  - +.dir(W>):
+      coord: [-590.1561128104458,136]
+  - _Korok::C42:
+      movements:
+        - to: [-522.1827185024513,100]
+          away: True
+  - +.dir(W)
+  - _Korok::C40
+  - _Korok::C41:
+      movements: 
+        - to: [-709.1095528494352,102]
+          away: true
+  - +.dir(<W) Turn
+  - _Korok::C39
+  - +.dir(W.) Turn
+  - _Korok::C38
+  - +.dir(N) SQ
+  - _Boss::Hinox::Black:
+      coord: [-1177.05, 139.48, 118.51]
+      comment: 2 shots + .fury()
+      fury: 3
+  - +.dir(<<W) Turn
+  - _Material<Tail, 1>:
+      coord: [-1338.0369740866845,226.5]
+      notes: Kill the other lizalfos too
+  - _Material<Acorn, 18>:
+      movements:
+        - to: [-1388.2487284044264,248.5]
+        - to: [-1380.5017606707943,255]
+  - _Korok::C36
+  - _Chest::Special<EX Midna's Helm>:
+      movements:
+        - to: [-1313.5279751026237,231]
+        - to: [-1304.7813986291685,232.25]
+        - to: [-1312.2784641778444,226.5]
+        - to: [-1364.7579230185747,214.5]
+        - to: [-1371.0054776424713,208.5]
+        - to: [-1402.4931529469104,219.75]
+  - +SQ
+  - _Korok::R49
+  - +.dir(N)
+  - _Korok::R48
+  - +.dir(NE)
+  - _Korok::R42
+  - +.dir(NE)
+  - _Korok::R43
+  - _Korok::R45:
+      comment: .gale()
+      gale: 1
+  - _Korok::R44
+  - +.dir(N>)
+  - _Korok::C24
+  - +.dir(N>>) SQ
+  - _Korok::R26
+  - _Korok::R27:
+      movements: 
+        - to: [-1093.1600254122113,-496]
+          away: True
+      notes: Shoot as falling down to finish the race
+  - +.dir(W)
+  - _Shrine::ZaltaWa
+  - +.dir(S) + .dir(S>)
+  - _Boss::Hinox::Blue:
+      coord: [-1536.1001626051984,-164]
+      comment: Spin NO FURY
+      notes: Need fury for next talus
+  - _Korok::R40
+  - +.dir(NW)
+  - _Korok::R25
+  - +.dir(S>) Turn
+  - _Korok::R39
+  - +.dir(.S) SQ
+  - _Korok::R41
+  - _Npc<Kass>:
+      coord: [-1681.68, 214.50, 51.38]
+  - _Discover<Jeddo Bridge>:
+      coord: [-1699.0931199220204,92]
+  - +.dir(W)
+  - _Shrine::SheemDagoze
+
+  - +.dir(N)
+  - _Korok::R38
+  - +.dir(S>)
+  - _Korok::R47
+  - +.dir(W>) Turn
+  - _Korok::R37
+  - +.dir(W) + .dir(SW) midairs
+  - _Npc<Kass>:
+      coord: [-2778.84, 348.24, 206.35]
+  - _Shrine::MijahRokee
+  
+  - +.dir(W>) Turn
+  - _Boss::Talus::Rare:
+      coord: [-3137.50, 317.31, 72.90]
+      comment: .fury()
+      fury: 3
+  - +.dir(<W) Turn
+  - _Korok::R46
+  - +.dir(N)
+  - _Korok::R36
+  - +.dir(W>) Turn
+  - _Korok::R35
+  - _Korok::R34
+  - +.dir(W>) Turn
+  - _Korok::R33
+  - +.dir(SW)
+  - _Korok::R32
+  - +.dir(N>)
+  - _Shrine::KahOkeo
+
+  - +.gale() + .dir(E>>):
+      gale: 1
+  - _Korok::T36
+  - +.dir(N>)
+  - _Korok::T32
+  - +.dir(<<N) Turn
+  - _Korok::T27
+  - +.dir(N>) Turn
+  - _Korok::T26
+  - +.dir(.N) Turn
+  - _Korok::T23
+  - +.dir(SE)
+  - _Boss::Talus::Rare:
+      coord: [-3929.177632120157,-1083]
+      comment: .fury()
+      fury: 3
+  - +.dir(<S) Turn:
+      coord: [-3817.18, 231.14, -832.07]
+  - _Korok::T28:
+      movements:
+        - to: [-3842.1897611856293,-802]
+          away: true
+      notes: Go after bomb
+  - _Korok::T29
+  - +SQ to race start
+  - _Korok::T30
+  - +.dir(<N)
+  - Freeze moblin
+  - _Korok::T24
+  - BTB to tower
+  - _Tower::Tabantha
+
+  - +.dir(<S) TS
+  - _Shrine::TenaKosah
+
+  - _Memory::AncientColumns
+  - +_Korok::T35
+  - +.dir(W)
+  - _Korok::T37
+  - +.dir(NE)
+  - _Korok::T33
+  - +.dir(NW)
+  - _Npc<Fairy Fountain>:
+      coord: [-3535.09879319458,-747]
+  - _Material<Silent Princess, 2>:
+      coord: [-3528.98, 292.37, -739.48]
+  - +.dir(E>)
+  - _Korok::T31
+  - +.dir(N>) Turn
+  - _Boss::Talus::Rare:
+      coord: [-3248.40, 291.68, -1078.12]
+      fury: 3
+      comment: .fury()
+  - +.dir(W>) Turn
+  - Rito Monument:
+      coord: [-3650.0426473592443,-1315]
+  - +.dir(E) Turn
+  - _Korok::T20
+  - +.dir(E)
+  - _Korok::T21
+  - +.dir(E)
+  - _Korok::T22
+  - .enemy(Lizalfos):
+      var-change:
+        Tail: 4
+      notes: .v(Tail)/45
+      coord: [-3118.639484252942,-1297.5]
+  - +.dir(.S)
+  - _Korok::T25
+  - _Tod::Morning:
+      comment: For DLC
+  - +.dir(E) + .dir(<E)
+  - _Korok::R05
+  - Surf down
+  - _Discover<Food Race>:
+      coord: [-2643.1118025954506,-1192.75]
+  - +.dir(<N):
+      coord: [-2705.3419613943092,-1430]
+  - Shoot Horn:
+      movements:
+        - to: [-2823.2957926934755,-1496]
+          away: true
+  - WB to shrine
+  - _Shrine::ShiraGomar
+
+  - +.gale() + .dir(E) + .dir(SE):
+      gale: 1
+  - _Korok::R06
+  - +.dir(E>)
+  - _Korok::R09
+  - +.dir(.S) DT
+  - _Tower::Ridgeland
+
+  - +.dir(W) DT
+  - _Korok::R15
+  - +.dir(<S) SQ
+  - _Korok::R18
+  - +.dir(SW)
+  - _Korok::R24:
+      movements:
+        - to: [-2051.6003582352864,-507.5]
+        - to: [-2053.0997713450215,-492]
+        - to: [-2056.0985975644917,-481]
+        - to: [-2031.6081834388178,-506.5]
+        - to: [-2007.6009451255513,-517]
+  - _Korok::R23:
+      movements:
+        - to: [-2029.592337401667,-547]
+  - +.dir(<N) Turn Red Orb:
+      coord: [-2137.0682749008092,-911]
+  - +.dir(NW) Orange Orb:
+      coord: [-2270.016237297327,-1039.5]
+  - +.dir(NW)
+  - _Korok::R08
+  - +.dir(.S) Turn
+  - _Korok::R14
+  - +.dir(N) Green Orb:
+      coord: [-2291.0080208336194,-883.5]
+  - _Shrine::TohYahsa
+
+  - +.dir(W) midairs
+  - _Korok::R13
+  - +.dir(S)
+  - _Korok::R17
+  - +.dir(<<S) Turn
+  - _Korok::R30
+  - +.dir(<E) Turn:
+      coord: [-2407.220670739577,-382]
+  - _Korok::R31:
+      movements:
+        - to: [-2375.233191065227,-344]
+          away: true
+  - _Boss::Hinox::Blue:
+      coord: [-2372.2343648457563,-418]
+      comment: .fury()
+      fury: 3
+  - _Korok::R22:
+      movements:
+        - to: [-2435.2097154546336,-489]
+          away: True
+  - +.dir(W)
+  - _Korok::R21
+  - +.dir(W)
+  - _Shrine::ShaeLoya
+  - _Npc<Shrine Guy>:
+      coord: [-2946.9878709345267,-489]
+  - _Npc<Fairy Fountain Guy>:
+      coord: [-2936.4919791663806,-565]
+      comment: Twice
+  - _Cook<1 Speed>
+  - Give Beetle and buy everything:
+      var-change:
+        Beetle: -1
+  - .npc(Transmutate)
+  - Drop 5 Hearty Bass:
+      notes: Smuggle 5 Hylian Shrooms
+  - Drop Farosh Horn:
+      notes: Smuggle 3 Ironshrooms
+  - Drop Dinraal Horn:
+      notes: Smuggle 5 Ruby
+  - Drop Naydra Horn:
+      notes: Smuggle 5 Apples
+  - Drop DClaw + NClaw:
+      notes: Smuggle 1 Lynel Horn + 1 Tireless Frog
+  - .npc(Transmutate)
+  - Drop 4 Farosh Horns:
+      notes: Smuggle 4 Razorshrooms
+  - Drop NFang + DFang + FScale:
+      notes: Smuggle 2 fireflies + 1 butterfly + 1 butterfly
+  - Drop FFang + NScale + DScale:
+      notes: Smuggle 2 stemella + 1 bufferfly + 1 green beetle
+  - Dupe Bows + Shield
+  - _Korok::T34
+  - +.dir(S>) Turn
+  - _Korok::R28
+  - +.dir(E)
+  - _Korok::R29
+  - +.dir(NE) + .dir(<N)
+  - _Korok:R20
+  - +.dir(N>) Turn
+  - _Discover<Tanagar Canyon Course>:
+      coord: [-3116.832130284845,-632]
+  - +.dir(N)
+  - _Korok::R12
+  - +.dir(N>) Turn + .dir(N>) Turn
+  - _Shrine::DunbaTaag
+  - +.dir(S)
+  - _Korok::H73
+  - +.dir(E>>) DT
+  - _Korok::R04

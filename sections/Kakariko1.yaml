@@ -10,10 +10,11 @@ Kakariko1:
       notes: Need 6 at gerudo
   - _Equipment::Shield<Pot Lid>:
       coord: [1796.75,1017.2674310499542]
-  - _Tod::Morning<For beetle>
+  - _Tod::Morning:
+      comment: for beetle
   - Dupe:
-      notes: Royal -> GEB. Hold smuggle 5 peppers. Inside shop is more consistent
-  - _Shop<Carrots>:
+      notes: Royal -> GEB. Hold smuggle 5 peppers. Inside shop is more consistent. If need springs, also buy boko guts and goat butter
+  - _Shop<Carrots + Eggs>:
       comment: Buy then sell pepper
       coord: [1788.25,1029.2721849726686]
   - _Material<Beetle,6>:

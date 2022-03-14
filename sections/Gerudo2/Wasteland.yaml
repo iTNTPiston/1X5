@@ -1,2 +1,136 @@
 Wasteland:
-  - todo
+  - _Warp::VahNaboris:
+      line-color: red
+      hide-icon-on-map: true
+  - .enemy(Thunderblight 2):
+      split-type: UserDefined
+      icon: naboris-plus
+      comment: Equip .rune(Stasis)
+      commands:
+        - EnableFuryPlus
+      notes: "Phase 1: Break shield, stasis, 6 spins SLAM. spin to death. Phase 2: magnesis + break shield + spin"
+  - +Run down bridge:
+      coord: [-2233,2572.2586926277263]
+  - _Korok::W33:
+      movements:
+        - to: [-2207.69, 432.17, 2550.62]
+          away: true
+  - +.dir(W)
+  - _Korok::W31
+  - _Korok::W32
+  - +.dir(N)
+  - _Tower::Wasteland
+
+  - +.dir(N.) DT:
+      coord: [-2242,2176.018817610746]
+  - _Korok::W12:
+      movements:
+        - to: [-2264.51, 356.99, 2163.38]
+          away: true
+  - _Material<Electric Darner>:
+      coord: [-2220.85, 356.03, 2204.36]
+      comment: Under rock
+      notes: Freeze the lizalfos so he doesn't mess with you
+  - _Korok::W16
+  - +.dir(N>>) SQ to tree
+  - _Korok::W11
+  - _Equipment::Weapon<Fire Rod>:
+      coord: [-2161.96, 333.51, 2140.63]
+      var-change:
+        Weapons: 1
+      comment: .v(Weapons)/8 weapons
+  - +.dir(.S) Turn start race:
+      coord: [-2103.93, 304.02, 2297.19]
+  - +.dir(<S)
+  - _Korok::W24
+  - _Korok::W23:
+      movements:
+        - to: [-2066.65, 288.82, 2397.04]
+  - _Tod::Noon:
+      comment: For Suma Sahma
+  - +.dir(E) + .dir(S) + .dir(S):
+      coord: [-1920,2398.2321498925685]
+  - _Korok::W34
+  - +.dir(S>) Turn
+  - _Korok::W39
+  - +.dir(W) Turn
+  - _Korok::W38
+  - +.dir(SE)
+  - _Boss::Talus::Luminous:
+      coord: [-2095,3036.1037939792714]
+      comment: .fury() .!!(BURN OUT)
+      fury: 3
+      notes: Get part if not 10 ambers
+  - +.dir(SE)
+  - _Korok::W50
+  - +.dir(SW)
+  - _Korok::W58
+  - +.dir(<<E) Turn:
+      coord: [-1762.5,3469.181045223386]
+  - _Shrine::DilaMaag
+
+  - +.dir(N) + .dir(E) midairs:
+      coord: [-1805,3343.1311290348804]
+  - _Korok::W54
+  - +.dir(S>) Turn
+  - _Korok::W59
+  - +.dir(E>)
+  - _Korok::W64
+  - +.dir(N)
+  - _Korok::W60
+  - +.dir(N)
+  - Rise Shrine
+  - _Npc<Diary>:
+      comment: "1112"
+      coord: [-1388.61034684277,3497.1378637587277]
+  - _Shrine::SumaSahma
+
+  - +_Material<Rushroom, 1>:
+      coord: [-1396.94, 554.09, 3430.30]
+  - +.dir(N)
+  - _Korok::W53
+  - +.dir(<N) DT
+  - _Korok::W41
+  - +.dir(SW)
+  - _Korok::W46
+  - +.gale():
+      gale: 1
+  - _Korok::W45
+  - +.dir(<W) Turn
+  - _Korok::W49
+  - +.dir(W.) Turn
+  - _Korok::W48
+  - +.dir(<W) DT
+  - .enemy(Blue Lizalfos):
+      coord: [-2625.4536719189787,3300.5]
+  - _Korok::W52
+  - +.dir(NW) + .dir(NW)
+  - _Korok::W44
+  - +.dir(N>) + .dir(N>):
+      coord: [-2662.129405863443,2732]
+  - _Korok::W35:
+      movements:
+        - to: [-2625.1366385174424,2752]
+          away: true
+  - Do puzzle:
+      time-override: 60
+  - _Shrine::KorshOhu
+
+  - .gale() + .dir(S):
+      gale: 1
+  - _Korok::W40
+  - +.dir(N>) + .dir(N>)
+  - _Korok::W30
+  - +.dir(NW)
+  - _Shrine::KayNoh
+
+  - +Run down
+  - _Korok::W15
+  - _Material<Rushroom, 4>:
+      notes: Spin with blizzard rod
+  - _Npc<Sesami>:
+      coord: [-2797.53, 135.05, 2240.97]
+  - _Tod::Noon:
+      comment: For drillshaft guy
+      coord: [-2811.31, 134.87, 2239.89]
+  

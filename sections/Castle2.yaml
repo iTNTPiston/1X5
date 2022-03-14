@@ -1,0 +1,172 @@
+Castle2:
+  - +.dir(S>) Turn Escape
+  - +.dir(S) midairs + .gale():
+      gale: 1
+  - _Korok::X05:
+      commands:
+        - ToggleHyruleCastle
+  - Drop down
+  - _Korok::X06
+  - _Chest<5 AA>:
+      coord: [-259.50, 420.85, -1065.37]
+  - Drop down
+  - _Korok::X10
+  - +.dir(W)
+  - _Korok::X07
+  - +.dir(<E)
+  - _Chest::Special<EX Royal Guard Cap>:
+      coord: [-253.98, 336.07, -1080.48]
+  - Climb out set skew bounce
+  - _Snap::Elite<Calamity>:
+      hide-icon-on-map: true
+      notes: Fury, stasis 8AA
+  - _Snap::Elite<Dark Beast>:
+      hide-icon-on-map: True
+  - Dark Beast:
+      split-type: UserDefined
+      hide-icon-on-map: true
+      icon: ganon
+      notes: Clear skew and ragdoll
+  - Run down
+  - _Korok::X03
+  - _Tod::Night:
+      comment: For BM skip
+  - _Chest<Naydra Scale>:
+      coord: [-182.29, 235.23, -1169.52]
+  - _Korok::X02
+  - +.dir(N) Turn
+  - _Korok::K30
+  - +.dir(S) Turn
+  - Enter East Passage
+  - _Korok::X11
+  - _Boss::Talus::Rare:
+      coord: [-136.65, 127.21, -956.26]
+      comment: .fury() from far
+      fury: 3
+      notes: Get any gems (except ruby) to 3+, for duping
+  - _Chest<Farosh Fang>:
+      coord: [-133.07, 170.48, -950.46]
+      notes: Blow up eye first
+  - .enemy(5 Lizalfos):
+      var-change:
+        Tail: 5
+      time-override: 60
+      movements:
+        - to: [-145.75, 170.46, -1023.56]
+        - to: [-160.87, 185.45, -1028.78]
+        - to: [-140.03, 185.45, -1083.65]
+        - to: [-169.65, 181.26, -1118.66]
+  - _Discover<King's Study>:
+      coord: [-165.7726753476727,-1112.25]
+  - Enter Docks:
+      coord: [-162.00, 170.46, -1080.87]
+  - _Shrine::SaasKosah:
+      notes: Keep note of TOD to make sure you are not exiting shrine at 12AM, or BM might be messed up
+
+  - +Break Boxes
+  - .enemy(.fury() 3 Lizalfos):
+      var-change:
+        Tail: 3
+      fury: 3
+      notes: .v(Tail)/45 tails
+  - _Chest<Star Fragment>:
+      coord: [-224.01, 104.73, -1177.87]
+      time-override: 15
+  - _Korok::X01:
+      time-override: 15
+  - WB aim at pillar
+  - _Korok::X04
+  - Enter Lockup:
+      time-override: 40
+  - _Boss::Hinox::Stal:
+      coord: [-491.34, 126.08, -1009.82]
+      comment: 1 shot + .fury()
+      fury: 3
+  - _Equipment::Shield<Hylian Shield>:
+      coord: [-502.5295170474019,-1012]
+  - Run toward West Passage:
+      coord: [-434.0429072311572,-1006]
+  - _Korok::X13
+  - Run toward water room:
+      coord: [-434.0429072311572,-987]
+  - .gale():
+      gale: 1
+  - _Korok::X08:
+      notes: Shoot switch
+  - _Chest<Dinraal Fang>:
+      coord: [ -326.46, 151.16, -1002.40]
+  - _Material<Tail, 1>
+  - Run out .gale():
+      gale: 2
+      coord: [-404.25469145124225,-985]
+  - _Material<Silent Princess, 1>:
+      coord: [-382.5089430789312,-999]
+  - _Memory::HyruleCastle
+  - _Snap::Quest<Skywatcher>
+  - _Korok::X09
+  - _Discover<Zelda's Room>:
+      coord: [-336.01803276571354,-996.25]
+  - +.dir(E) super
+  - _Korok::X12
+  - +SQ to second gate house
+  - _Korok::X16
+  - _Discover<Second Gatehouse>:
+      coord: [-182.27472785759164,-864.75]
+  - +.dir(W)
+  - _Korok::X14
+  - +SQ to first gate house
+  - _Korok::X17
+  - _Discover<First Gatehouse>:
+      coord: [-340.02419029546945,-807.5]
+  - +.dir(E>) Turn
+  - _Korok::X23
+  - _Discover<Observation Room>:
+      coord: [-253.28499040718452,-746]
+  - _Korok:X21
+  - _Korok:X22
+  - Drop down midair
+  - _Korok::X18
+  - Clip in:
+      coord: [-398.5065973533101,-824.75]
+      notes: Might get unloaded if lucky
+  - .enemy(.fury() 3 lizalfos):
+      coord: [-362.0137322687415,-823.75]
+      fury: 3
+      var-change:
+        Tail: 3
+      notes: .v(Tail)/45. Fury on stairs first, then go down and fury 2 more to also fury the black on up there. Kill the 2 silvers.
+  - _Chest::Special<EX Royal Guard Boots>:
+      coord: [-360.58, 182.44, -855.37]
+  - _Chest<Naydra Fang>:
+      coord: [-356.28, 172.41, -810.58]
+  - _Korok::X19
+  - _Chest<3 AA>:
+      notes: Only if you used too many AAs already
+  - OOB movement to other side
+  - _Korok::X15
+  - _Chest::Special<EX Royal Guard Uniform>:
+      coord: [-175.26, 211.33, -889.62]
+      notes: Equip Royal Guard Set for the flower chase coming up
+  - _Equipment::Weapon<Royal Guard Sword>:
+      coord: [-179.52419029547036,-887.75]
+      comment: For the girl
+  - _Material<Tail, 1>:
+      coord: [-152.03, 211.33, -899.09]
+  - Run to dining hall
+  - _Material<Raw Meat>:
+      coord: [-110.5662207848818,-837.75]
+  - Run out drop down
+  - _Korok::X20
+  - +.dir(S>>)
+  - _Korok::X24:
+      commands:
+        - ToggleHyruleCastle
+  - _Korok::C16
+  - _Korok::X25
+  - +.dir(S)
+  - _Korok::C33
+  - +.dir(S>) Turn
+  - _Korok::C35
+  - _Memory::SacredGrounds
+  
+

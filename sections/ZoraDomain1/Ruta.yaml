@@ -7,9 +7,8 @@ Ruta:
   - _Korok::Z16
   - _Npc::ZoraMale<Fish Drama>
   - _Shop<All Arrows>:
-      comment: Rock Salt, Violets
+      comment: and Violets
       coord: [3319.125,-483.08918557092966]
-      notes: Rock salt for duping
       var-change:
         Lotus: 4
   - _Shrine::NeezYohma

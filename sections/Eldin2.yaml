@@ -1,0 +1,61 @@
+Eldin2:
+  - _Warp::Shrine::KayraMah:
+      line-color: "#00ff00"
+  - +.gale() SCW:
+      gale: 1
+      coord: [1956.4834821820832,-2041]
+  - _Shrine::RinuHonika
+
+  - +.dir(E) + .dir(<E)
+  - _Korok::E23
+  - +.dir(W)
+  - _Korok::E22
+  - Activate Shrine:
+      notes: Do the midair or use block.
+      coord: [2245.010360288161,-1998]
+  - +.dir(<N)
+  - _Korok::E21
+  - +.dir(W):
+      coord: [1996.9464392649797,-2109.5]
+  - _Korok::E20:
+      notes: Go after bomb
+      movements:
+        - to: [2018.4360789768189,-2174.5]
+          away: true
+  - +.dir(.N)
+  - _Equipment::Weapon<Drillshaft>:
+      var-change:
+        Weapons: 1
+      comment: .v(Weapons)/8 weapons
+      coord: [1946.80, 632.72, -2203.24]
+  - +.dir(W) Turn
+  - _Npc::Goron<Drillshaft Guy>:
+      coord: [1794.4835799206503,-2255.75]
+  - +.dir(<N) Turn
+  - _Npc::Goron<Talus Guy>:
+      comment: Twice
+      coord: [1668.2536651962837,-2480]
+  - _Npc::Gerudo<Amber Lady>:
+      comment: Twice
+      coord: [1695.9982407057842,-2448.25]
+  - +.dir(N>) Super
+  - _Korok::E10
+  - +.dir(E) + .dir(E)
+  - _Korok::E11
+  - +.dir(N>)
+  - _Korok::E09
+  - Drop down
+  - _Boss::Talus::Igneo:
+      coord: [2146.50, 535.83, -3011.50]
+      comment: .fury()
+      fury: 3
+      notes: Get part until 11 flints
+  - +.dir(<E) Turn
+  - _Korok::E06
+  - +.dir(W.) Turn:
+      coord: [2148.896201641256,-3214]
+  - _Snap::Elite<Igneo Talus Titan>
+  - .enemy(Igneo Talus Titan):
+      coord: [2155.8948333013104,-3190]
+  - _Shrine::KamiaOmuna
+        

@@ -32,7 +32,10 @@ Plateau2:
   - _Shrine::RuvoKorbah
   
   - +.dir(NE)
-  - .enemy(Kill Camp)
+  - .enemy(Kill Camp):
+      var-change:
+        Tail: 3
+      notes: .v(Tail)/45
   - _Snap::Elite<Silver Lizalfos>:
       coord: [-540.30, 184.13, 1881.60]
   - _Material<Honey, 2>:

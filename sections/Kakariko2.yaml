@@ -8,10 +8,11 @@ Kakariko2:
   - _Npc::SheikaFemale<Impa>:
       coord: [1776,982.7563385636195]
   - Run to shops
-  - _Shop<Arrows + Carrots>:
+  - _Shop<Arrows + Carrots + 1 Egg>:
       movements:
         - to: [1831.25,1041.779712016967]
         - to: [1789,1029.7179110216757]
+      notes: Also buy boko guts if need springs
   - +.dir(E.) + .dir(SE) Super:
       movements:
         - to: [1930.5,1054.0972573355384]

@@ -1,0 +1,10 @@
+Eldin3:
+  - _Warp::Shrine::RinuHonika:
+      line-color: cyan
+  - SQ to talus
+  - _Boss::Talus::Igneo:
+      coord: [2377.2430206922872,-2001]
+      comment: .fury()
+      fury: 3
+  - +.dir(<S) DT
+  - _Tower::Eldin

@@ -3,7 +3,7 @@ AfterRuta:
       movements:
         - to: [3285,-430]
           warp: true
-  - _Chest<LightScale Trident>:
+  - _Chest<Lightscale Trident>:
       var-change:
         Weapons: 1
       comment: .v(Weapons)/8 Weapons

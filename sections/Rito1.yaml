@@ -68,7 +68,7 @@ Rito1:
   - Dupe:
       notes: "Unequip all armor. Cores: Drop 8 shafts + 1 core, start from FDB. Shafts/Springs: Drop 6 cores. Hold smuggle shafts or cores and sell all of them. Then pick up, unhold, dupe bow, and finally buy from beedle"
   - _Shop<Beedle>:
-      comment: Arrows, 1 Darner
+      comment: 1 Darner and all other
   - _Material<Ancient Arrow>
   - _Material<Farm Wood>
   - _Equipment::Weapon<2 Axe>:

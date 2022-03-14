@@ -1,0 +1,148 @@
+Woodland:
+  - _Warp::Shrine::ShaeMosah:
+      line-color: cyan
+  - +.dir(.W)
+  - _Korok::E14
+  - _Korok::E13
+  - +.dir(S)
+  - _Discover<Stolock Bridge>:
+      coord: [1626.953280964708,-2477]
+  - _Korok::E15
+  - Drop out .dir(<S) Turn
+  - _Korok::E18
+  - +.dir(S>) Turn
+  - _Korok::E19
+  - +.dir(S)
+  - _Korok::E25
+  - +.dir(SW)
+  - _Korok::E24:
+      movements:
+        - to: [1468.58, 425.75, -1740.36]
+        - to: [1412.4609045729776,-1761]
+          away: True
+  - +.dir(S.)
+  - _Tod::Night:
+      comment: For Greyson and BM
+      coord: [1408.461686481518,-1556.5]
+  - _Korok::E31
+  - _Memory::EldinCanyon
+
+  - +.dir(NE)
+  - _Korok::E26:
+      movements:
+        - to: [1706.28, 459.75, -1761.83]
+        - to: [1685.8017861849976,-1714]
+          away: True
+  - +.dir(N)
+  - _Npc<Lizard Quest>:
+      coord: [1655.4501533305465,-1948]
+  - _Npc::Goron<Greyson>:
+      coord: [1656.63, 430.15, -1968.53]
+  - +.dir(SE):
+      coord: [1793.9230797473338,-1731.5]
+  - _Boss::Talus::Igneo:
+      movements:
+        - to: [ 1795.54, 394.18, -1746.73]
+          away: true
+      comment: .fury()
+      fury: 3
+  - +.dir(E) + .dir(N.):
+      coord: [1923.4249367801176,-1718.5]
+  - _Korok::E27
+  - +.dir(S>) Turn
+  - _Shrine::QuaRaym
+
+  - +.dir(<<W) Turn
+  - _Korok::E35
+  - +.dir(W>) TS
+  - _Tower::Woodland
+  - +SQ .dir(E.) ish
+  - _Korok::K31
+  - +.dir(S>)
+  - _Korok::K32
+  - +.dir(N) + .dir(<<N) Turn
+  - _Chest::Special<EX Korok Mask>:
+      coord: [721.69, 280.22, -1847.74]
+  - .dir(W>) Enter Forest:
+      coord: [443.9306056170353,-2062]
+  - _Npc<Start Oaki>:
+      coord: [256.50, 281.34, -2226.50]
+  - +.dir(E)
+  - _Npc<Walton>:
+      coord: [417.59, 334.17, -2180.27]
+      notes: Apple, Sunshroom, Pumpkin, Voltfin, Hoof
+  - _Snap::Quest<Sunshroom>
+  - _Material<Rushroom, 1>
+  - Break pots
+  - Eggs
+  - .npc(Hestu):
+      icon: hestu
+      comment: Bow > Weapon > 1 Shield
+      coord: [466.03, 249.56, -2112.38]
+  - _Equipment::Weapon<Korok Leaf>:
+      coord: [473.68, 249.02, -2125.30]
+  - Activate Shrine:
+      coord: [468.44956689914125,-2171]
+  - _Equipment::Weapon<Master Sword>:
+      coord: [431.66, 250.53, -2111.00]
+  - _Material<Silent Princess, 3>
+  - _Npc<Zooki>:
+      coord: [251.03, 285.34, -1979.93]
+  - _Npc<Blizzard Rod Guy>:
+      coord: [435,-2158.9203717945284]
+  - _Shop<Rushroom + Arrow>:
+      coord: [433.9569461609917,-2184.5]
+      var-change:
+        Rushroom: 4
+  - WB to shrine:
+      notes: Farm crickets and frogs
+  - _Tod::Night:
+      coord: [-35,-2439.1798567427068]
+      comment: For BM skip in TOTS
+      notes: Make the campfire but pass time after oaki
+  - _Shrine::DaagChokah
+
+  - _Warp::Shrine::KeoRuug
+  - _Shrine::KeoRuug
+
+  - Trial of the Sword:
+      split-type: UserDefined
+      icon: tots
+      notes: Note the TOD to make sure you skip bloodmoon inside the trial
+      coord: [431.66, 250.53, -2111.00]
+  - +.dir(.E):
+      coord: [565.8997202296887,-2164]
+  - _Shrine::MaagHalan
+  - +.gale() + .dir(NE) + .dir(W.) midairs:
+      coord: [945.8254389183467,-2545]
+      gale: 1
+  - _Korok::K08
+  - +.dir(NW) enter dark forest
+  - _Boss::Hinox::Blue:
+      coord: [341.82, 278.73, -3116.14]
+      comment: .fury()
+      fury: 3
+  - _Shrine::KetohWawai
+  
+  - +.dir(S)
+  - _Korok::K07
+  - +.dir(W)
+  - _Korok::K06
+  - +.dir(SW) + .gale() + WBs:
+      gale: 1
+  - _Korok::K11
+  - +.dir(S) Turn
+  - _Boss::Hinox::Blue:
+      coord: [-482.129405863443,-2038]
+      comment: 5 Spin SLAM
+  - .item(Razorshroom):
+      notes: For duping (should have 2 now)
+  - +.dir(S)
+  - _Korok::K27
+  - +SQ .dir(E)
+  - _Korok::K28
+  - +.dir(.E) Turn
+  - _Equipment::Shield<Rusty Shield>:
+      comment: Keep for korok
+      coord: [100.06, 286.08, -1827.37]
+  - _Shrine::KuhnSidajj

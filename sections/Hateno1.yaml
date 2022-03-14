@@ -2,6 +2,7 @@ Hateno1:
   - +.dir(N) up hill
   - _Material<Silent Princess, 1>:
       notes: Grab 3 but 2 for stealth potion
+      coord: [1870.5,816.5728934816261]
   - _Material<9+ Night Shades>:
       comment: 3 for stealth
   - BLSS to farmer
