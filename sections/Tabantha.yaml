@@ -140,7 +140,8 @@ Tabantha:
   - +.dir(<N)
   - Freeze moblin
   - _Korok::T24
-  - BTB to tower
+  - BTB to tower:
+      time-override: 15
   - _Tower::Tabantha
 
   - +.dir(<S) TS
@@ -261,35 +262,35 @@ Tabantha:
       coord: [-2936.4919791663806,-565]
       comment: Twice
   - _Cook<1 Speed>
-  - Give Beetle and buy everything:
+  - Give Beetle:
       var-change:
         Beetle: -1
   - .npc(Transmutate)
-  - Drop 5 Hearty Bass:
+  - Drop 1 Goron Spice
+  - Drop 3 Honey:
       notes: Smuggle 5 Hylian Shrooms
-  - Drop Farosh Horn:
-      notes: Smuggle 3 Ironshrooms
   - Drop Dinraal Horn:
       notes: Smuggle 5 Ruby
   - Drop Naydra Horn:
       notes: Smuggle 5 Apples
-  - Drop DClaw + NClaw:
-      notes: Smuggle 1 Lynel Horn + 1 Tireless Frog
+  - Drop FHorn + DClaw + NClaw:
+      notes: Smuggle 2 Ambers + 1 Lynel Horn + 1 Tireless Frog
   - .npc(Transmutate)
-  - Drop 4 Farosh Horns:
-      notes: Smuggle 4 Razorshrooms
+  - Drop 3 Farosh Horns:
+      notes: Smuggle 5 Molduga Fins
   - Drop NFang + DFang + FScale:
-      notes: Smuggle 2 fireflies + 1 butterfly + 1 butterfly
+      notes: Smuggle 2 fireflies + 1 green beetle + 1 goron spice
   - Drop FFang + NScale + DScale:
-      notes: Smuggle 2 stemella + 1 bufferfly + 1 green beetle
-  - Dupe Bows + Shield
+      notes: Smuggle 2 thistle + 1 nightshade + 1 razorshroom
+  - Dupe Shield
+  - Dupe Bows
   - _Korok::T34
   - +.dir(S>) Turn
   - _Korok::R28
   - +.dir(E)
   - _Korok::R29
   - +.dir(NE) + .dir(<N)
-  - _Korok:R20
+  - _Korok::R20
   - +.dir(N>) Turn
   - _Discover<Tanagar Canyon Course>:
       coord: [-3116.832130284845,-632]
